@@ -12,9 +12,11 @@ parameters = {
   #'symbol': symbols,
   'skip_invalid': True
 }
+
+# get your own API key from coinmarketcap
 headers = {
   'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': '51c89786-5494-4ac9-9cf3-02a80e64893b',
+  'X-CMC_PRO_API_KEY': 'XXXXXXXXXXXXXXXXXXXXXXXXXX',
 }
 
 def round_it(x, sig):
