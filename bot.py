@@ -7,7 +7,8 @@ import json
 import asyncio
 import coinmarketcap
 
-from discord_tokens import twitterbot_token
+# put your discord token in discord_tokens.py    
+from discord_tokens import cryptobot_token
 
 bot = commands.Bot(command_prefix='$')
 
@@ -22,5 +23,5 @@ async def crypto(ctx, *args):
     await ctx.send(out)
 
 
-bot.run(twitterbot_token)
+bot.run(cryptobot_token)
 
